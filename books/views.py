@@ -10,7 +10,7 @@ class BooksModelView(TemplateView):
 
     def get_context_data(self, **kwagrs):
         context = super().get_context_data(**kwagrs)
-        context['model_list'] = ['Book', 'Author', 'Publihser']
+        context['model_list'] = ['Book', 'Author', 'Publisher']
         return context
 
 #-- ListView
